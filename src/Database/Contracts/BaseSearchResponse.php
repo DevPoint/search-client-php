@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Search\Database\Contracts;
+namespace Devpoint\SearchClient\Database\Contracts;
 
 interface BaseSearchResponse {
 

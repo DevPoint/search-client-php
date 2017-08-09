@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Search\Database\Core;
+namespace Devpoint\SearchClient\Database\Core;
 
-use App\Search\Database\Contracts\BaseSearchBuilder as BaseSearchBuilderContract;
-use App\Search\Contracts\SearchClientBuilder;
+use Devpoint\SearchClient\Database\Contracts\BaseSearchBuilder as BaseSearchBuilderContract;
+use Devpoint\SearchClient\Contracts\SearchClientBuilder;
 
 class BaseSearchBuilder implements BaseSearchBuilderContract {
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Search\Contracts;
+namespace Devpoint\SearchClient\Contracts;
 
 interface SearchClient {
     

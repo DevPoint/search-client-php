@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Search\Database\Core;
+namespace Devpoint\SearchClient\Database\Core;
 
 use Illuminate\Support\Collection;
-use App\Search\Database\Contracts\BaseSearchResponse as BaseSearchResponseContract;
-use App\Search\Contracts\SearchClientResponse;
+use Devpoint\SearchClient\Database\Contracts\BaseSearchResponse as BaseSearchResponseContract;
+use Devpoint\SearchClient\Contracts\SearchClientResponse;
 
 class BaseSearchResponse implements BaseSearchResponseContract {
 
