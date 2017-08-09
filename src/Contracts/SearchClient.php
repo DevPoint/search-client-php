@@ -17,9 +17,6 @@ interface SearchClient {
      *   ]
      * ]
      *
-     * Remark:
-     * Updates may happen sync or async.
-     *
      * @param  string  $index
      * @param  array   $valuesWithMeta
      * @return void
@@ -27,10 +24,7 @@ interface SearchClient {
     public function update($index, $valuesWithMeta);
 
     /**
-     * Delete values on the index.
-     *
-     * Remark:
-     * Updates may happen sync or async.
+     * Delete values from the index.
      *
      * @param  string  $index
      * @param  array   $ids
