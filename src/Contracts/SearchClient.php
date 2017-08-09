@@ -7,6 +7,8 @@ interface SearchClient {
     /**
      * Update values on the index.
      * 
+     * @since version 1.1.0
+     *
      * [
      *   'id': {valueId}
      *   'data': [
@@ -25,6 +27,8 @@ interface SearchClient {
 
     /**
      * Delete values from the index.
+     *
+     * @since version 1.1.0
      *
      * @param  string  $index
      * @param  array   $ids
